@@ -1,0 +1,31 @@
+body {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 0 10px;
+    color: #444;
+    background: #fff;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    color: #222;
+}
+
+a {
+    color: #07a;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+footer {
+    margin-top: 2em;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 0 15px;
+    }
+}
